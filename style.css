@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding: 2rem;
+}
+.taskOne {
+  width: 100px;
+  height: 100px;
+
+  background-color: #eee;
+  margin: 0 auto;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: -5px -5px 10px gray inset, 5px 5px 10px gray inset;
+}
+/* taskTwo */
+:root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+}
+.taskTwo div {
+  width: 500px;
+  padding: var(--mainPadding);
+  color: var(--mainColor);
+  border: 2px solid var(--mainColor);
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+.taskTwo2 div {
+  width: 500px;
+  padding: var(--mainPadding);
+  border: 2px solid black;
+  color: red;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
